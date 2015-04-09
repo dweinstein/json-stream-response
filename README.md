@@ -7,13 +7,14 @@ does.
 # USAGE
 
 ```javascript
-var ws = require('json-stream-response');
+var jsr = require('json-stream-response');
 
 function requestHandler(req, res, next) {
   // ...
+  var ws = jsr(res);
+  ws.pipe(res);
   ws.write(bigJSONThing);
   ws.write(bigJSON2);
-  ws.pipe(res);
   ws.end();
   res.on('finish', next);
 }
