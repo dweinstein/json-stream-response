@@ -1,6 +1,6 @@
 {
   "name": "json-stream-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "send the HTTP application/json header and stream a HTTP json response",
   "main": "index.js",
   "scripts": {
