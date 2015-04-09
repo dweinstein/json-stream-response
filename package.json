@@ -1,0 +1,27 @@
+{
+  "name": "json-stream-response",
+  "version": "1.0.0",
+  "description": "send the HTTP application/json header and stream a HTTP json response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "json",
+    "response"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweinstein/json-stream-response.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dweinstein/json-stream-response/issues"
+  },
+  "homepage": "https://github.com/dweinstein/json-stream-response",
+  "dependencies": {
+    "JSONStream": "^0.10.0"
+  }
+}
